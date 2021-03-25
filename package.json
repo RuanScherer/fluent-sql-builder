@@ -1,0 +1,17 @@
+{
+  "name": "builder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [],
+  "author": "Ruan Scherer",
+  "devDependencies": {
+    "jest": "26"
+  },
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs",
+    "test:cov": "NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs --coverage",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs --watchAll"
+  }
+}
