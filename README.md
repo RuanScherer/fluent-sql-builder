@@ -1,8 +1,7 @@
 # Fluent SQL Builder
 
 ## Overview
-This is an application that simulate a SQL builder. The purpose of this application is to give me knowledge about builder model and TDD (Test-Driven Development).
-
+This is an application that simulate a SQL builder. The purpose of this application is to give me knowledge about builder model and TDD (Test-Driven Development). I didn't create a real use of the created class because I just wanted to analyze its behavior and test the operation, and all of this was done only with the jest tests.
 ## Techonologies
 - [Node.js](https://nodejs.org/)
 - [JEST](https://jestjs.io/)
